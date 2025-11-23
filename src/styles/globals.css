@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #050816;
+  color: #f9fafb;
+}
+
+a {
+  color: #38bdf8;
+}
+
+input, textarea, select, button {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.card {
+  background: #020617;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #1f2937;
+}
+
+.btn {
+  background: #22c55e;
+  color: #022c22;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  background: #0f172a;
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+}
+
+.btn + .btn {
+  margin-left: 0.5rem;
+}
+
+input, textarea, select {
+  background: #020617;
+  border-radius: 0.5rem;
+  border: 1px solid #1f2937;
+  padding: 0.5rem 0.75rem;
+  color: #e5e7eb;
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+label {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+h1, h2, h3 {
+  color: #f9fafb;
+}
